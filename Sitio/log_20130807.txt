@@ -1,0 +1,7 @@
+date/time	script	user	action	table	field	key value	old value	new value
+2013/08/07 16:53:05	/Sitio/login.aspx	admin	inicio de sesión	::1				
+2013/08/07 17:49:44	/Sitio/login.aspx	admin	inicio de sesión	::1				
+2013/08/07 19:37:24	/Sitio/login.aspx	admin	inicio de sesión	::1				
+2013/08/07 21:58:55	/Sitio/login.aspx	admin	inicio de sesión	::1				
+2013/08/07 22:02:35	/Sitio/login.aspx	admin	inicio de sesión	::1				
+2013/08/07 23:05:26	/Sitio/login.aspx	admin	inicio de sesión	::1				

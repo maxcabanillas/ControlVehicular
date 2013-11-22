@@ -1,0 +1,1 @@
+<%@ Page ClassName="_logout" Language="C#" CodePage="65001" MasterPageFile="masterpage.master" AutoEventWireup="true" CodeFile="logout.aspx.cs" Inherits="_logout" CodeFileBaseClass="AspNetMaker9_ControlVehicular" %>

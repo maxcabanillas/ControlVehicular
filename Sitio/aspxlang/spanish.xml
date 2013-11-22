@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<ew-language date="2013/8/21" version="9.0.0" id="en" name="Spanish" desc="Spanish" author="e.World Technology Ltd.">
+	<global>
+		<phrase id="actiondeleted" value="Borrado"/>
+		<phrase id="actioninserted" value="Insertado"/>
+		<phrase id="actioninsertedgridadd" value="Insertado (Adición en lotes)"/>
+		<phrase id="actionupdated" value="Guardado"/>
+		<phrase id="actionupdatedgridedit" value="Guardado (Edición en lotes)"/>
+		<phrase id="actionupdatedmultiupdate" value="Guardado (Multimple)"/>
+		<phrase id="activateaccount" value="Su usuario esta activado"/>
+		<phrase id="activatefailed" value="La activación fallo"/>
+		<phrase id="add" value="Adicionar a"/>
+		<phrase id="addbtn" value="Adicionar"/>
+		<phrase id="addlink" value="Adicionar"/>
+		<phrase id="addsuccess" value="Adicionar terminado"/>
+		<phrase id="advancedsearch" value="Busqueda avanzada"/>
+		<phrase id="allrecords" value="Todos"/>
+		<phrase id="allword" value="Todas las palabras"/>
+		<phrase id="alwaysask" value="Siempre pregunte mi usuario y contraseña"/>
+		<phrase id="anyword" value="Cualquier palabra"/>
+		<phrase id="audittrailautologin" value="inicio automatico de sesión"/>
+		<phrase id="audittrailfailedattempt" value="intento fallido: %n"/>
+		<phrase id="audittrailuserloggedin" value="usuario ya tiene una sesión iniciada"/>
+		<phrase id="audittrailpasswordexpired" value="contraseña vencida"/>
+		<phrase id="audittraillogin" value="inicio de sesión"/>
+		<phrase id="audittraillogout" value="abadono sesión"/>
+		<phrase id="autologin" value="Conectese automaticamente mientras no se desconecte explicitamente"/>
+		<phrase id="average" value="Promedio"/>
+		<phrase id="backtolist" value="Regresar al listado"/>
+		<phrase id="backtologin" value="Regresar a la página de inicio de sesión"/>
+		<phrase id="backtomasterpage" value="Regresar a la página maestra"/>
+		<phrase id="batchdeletebegin" value="*** Inicio borrado en lotes ***"/>
+		<phrase id="batchdeleterollback" value="*** Deshacer borrado en lotes ***"/>
+		<phrase id="batchdeletesuccess" value="*** Borrado en lotes terminado ***"/>
+		<phrase id="batchinsertbegin" value="*** Inicio insertar en lotes ***"/>
+		<phrase id="batchinsertrollback" value="*** Deshacer insertar en lotes ***"/>
+		<phrase id="batchinsertsuccess" value="*** Insertar en lotes terminado ***"/>
+		<phrase id="batchupdatebegin" value="*** Inicio actualizacion en lotes ***"/>
+		<phrase id="batchupdaterollback" value="*** Deshacer actualizacion en lotes ***"/>
+		<phrase id="batchupdatesuccess" value="*** Actualizacion en lotes terminada ***"/>
+		<phrase id="cancelbtn" value="Cancelar"/>
+		<phrase id="cancellink" value="Cancelar"/>
+		<phrase id="changepwd" value="Cambiar contraseña"/>
+		<phrase id="changepwdpage" value="Cambiar contraseña"/>
+		<phrase id="changepwdbtn" value="Cambiar contraseña"/>
+		<phrase id="confirm" value="Confirmar"/>
+		<phrase id="confirmbtn" value="Confirmar"/>
+		<phrase id="confirmpassword" value="Confirmar Contraseña"/>
+		<phrase id="conflictcancellink" value="Cancelar"/>
+		<phrase id="copylink" value="Copiar"/>
+		<phrase id="count" value="Contador"/>
+		<phrase id="customview" value="Vista"/>
+		<phrase id="delete" value="Borrar desde"/>
+		<phrase id="deletebtn" value="Confirmar dorrado"/>
+		<phrase id="deletecancelled" value="Borrado cancelado"/>
+		<phrase id="deleteconfirmmsg" value="Realmente quiere borrar este registro?" client="1"/>
+		<phrase id="deletelink" value="Borrar"/>
+		<phrase id="deletemulticonfirmmsg" value="Realmente queire borrar los registros seleccionados?" client="1"/>
+		<phrase id="deleteselectedlink" value="Borrar seleccionados"/>
+		<phrase id="deletesuccess" value="Borrado terminado"/>
+		<phrase id="detaillink" value=""/>
+		<phrase id="detailcount" value="(%c)"/>
+		<phrase id="dupindex" value="Valor duplicado '%v' para la clave '%f'"/>
+		<phrase id="dupkey" value="Valor de clave duplicado: '%f'"/>
+		<phrase id="edit" value="Editar"/>
+		<phrase id="editbtn" value="Editar"/>
+		<phrase id="editlink" value="Editar"/>
+		<phrase id="enternewpassword" value="Entre la contraseña nueva" client="1"/>
+		<phrase id="enteroldpassword" value="Entre la contraseña vieja" client="1"/>
+		<phrase id="enterpassword" value="Entre la contraseña" client="1"/>
+		<phrase id="enterpwd" value="Entre la contraseña" client="1"/>
+		<phrase id="enterrequiredfield" value="Campo requerido" client="1"/>
+		<phrase id="entersearchcriteria" value="Ingrese el criterio de busqueda"/>
+		<phrase id="entervalidatecode" value="Igrese el codigo de validación"/>
+		<phrase id="entersenderemail" value="Ingrese el correo de quien envia" client="1"/>
+		<phrase id="enterpropersenderemail" value="El contador de correos enviados se ha sobrepasado o el correo es incorrecto" client="1"/>
+		<phrase id="enterrecipientemail" value="Ingrese el correo" client="1"/>
+		<phrase id="enterproperrecipientemail" value="El contador de correos enviados se ha sobrepasado o el correo es incorrecto" client="1"/>
+		<phrase id="enterproperccemail" value="El contador de correos de copia se ha sobrepasado o el correo es incorrecto" client="1"/>
+		<phrase id="enterproperbccemail" value="El contador de correos de copia oculata se ha sobrepasado o el correo es incorrecto" client="1"/>
+		<phrase id="entersubject" value="Ingrese el asunto" client="1"/>
+		<phrase id="emailformsender" value="Desde"/>
+		<phrase id="emailformrecipient" value="Para"/>
+		<phrase id="emailformcc" value="Cc"/>
+		<phrase id="emailformbcc" value="Bcc"/>
+		<phrase id="emailformsubject" value="Asunto"/>
+		<phrase id="emailformmessage" value="Mensaje"/>
+		<phrase id="emailformcontenttype" value="Enviar como"/>
+		<phrase id="emailformcontenttypeurl" value="URL"/>
+		<phrase id="emailformcontenttypehtml" value="HTML"/>
+		<phrase id="enteruid" value="Ingrese el ID de usuario" client="1"/>
+		<phrase id="entervalidemail" value="Ingrese un correo válido!" client="1"/>
+		<phrase id="exactphrase" value="Frase exacta"/>
+		<phrase id="exceedmaxretry" value="Los intentos de inicio de sesión han llegado al maximo. El usuario esta bloqueado. Intente de nuevo en %t minutos"/>
+		<phrase id="exceedmaxemailexport" value="Se sobrepaso el número maximo de correos a exportar. Intente mas tarde"/>
+		<phrase id="exporttocsv" value="Exportar a CSV"/>
+		<phrase id="exporttoemail" value="Correo" client="1"/>
+		<phrase id="exporttoexcel" value="Exportar a Excel"/>
+		<phrase id="exporttohtml" value="Exportar a HTML"/>
+		<phrase id="exporttoword" value="Exportar a Word"/>
+		<phrase id="exporttoxml" value="Exportar a XML"/>
+		<phrase id="failedtosendmail" value="Failed to send mail. Error: %e"/><!-- ### v8 ### -->
+		<phrase id="fieldname" value="Nombre Campo"/>
+		<phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+		<phrase id="overwritebtn" value="Sobreescribir"/>
+		<phrase id="overwritelink" value="Sobreescribir"/>
+		<phrase id="forgotpwd" value="Olvido Contraseña"/>
+		<phrase id="goback" value="Regresar"/>
+		<phrase id="gridaddlink" value="Adición en lotes"/>
+		<phrase id="gridcancellink" value="Cancelar"/>
+		<phrase id="grideditlink" value="Edición en lotes"/>
+		<phrase id="gridinsertlink" value="Insertar"/>
+		<phrase id="gridsavelink" value="Salvar"/>
+		<phrase id="hidehighlight" value="Esconder resaltado" client="1"/>
+		<phrase id="incorrectcreditcard" value="Número de tarjeta de crédito incorrecto"/>
+		<phrase id="incorrectdateymd" value="Formato de fecha incorrecto = yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="Formato de fecha incorrecto = mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="Formato de fecha incorrecto = dd%smm%syyyy"/>
+		<phrase id="incorrectemail" value="Correo incorrecto" client="1"/>
+		<phrase id="incorrectfield" value="Campo incorrecto" client="1"/>
+		<phrase id="incorrectfloat" value="Número de punto flotante incorrecto" client="1"/>
+		<phrase id="incorrectguid" value="GUID incorrecto" client="1"/>
+		<phrase id="incorrectinteger" value="Entero incorrecto" client="1"/>
+		<phrase id="incorrectphone" value="Número telefonico incorrecto" client="1"/>
+		<phrase id="incorrectregexp" value="No concuerda la expresión regular" client="1"/>
+		<phrase id="incorrectrange" value="El número debe estar entre %1 y %2" client="1"/>
+		<phrase id="incorrectssn" value="Número de seguridad social incorrecto" client="1"/>
+		<phrase id="incorrecttime" value="Hora incorrecta (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="Codigo ZIP incorrecto" client="1"/>
+		<phrase id="inlineaddlink" value="Adición en línea"/>
+		<phrase id="inlinecopylink" value="Copiar en línea"/>
+		<phrase id="inlineeditlink" value="Editar en línea"/>
+		<phrase id="insertcancelled" value="Insertar cancelado"/>
+		<phrase id="insertfailed" value="Insertar fallido"/>
+		<phrase id="insertlink" value="Insertar"/>
+		<phrase id="insertsuccess" value="Insertar terminado"/>
+		<phrase id="invalidemail" value="Correo incorrecto"/>
+		<phrase id="invalidfield" value="Campo incorrecto"/>
+		<phrase id="invalidkeyvalue" value="Valor de clave no válido"/>
+		<phrase id="invalidrecord" value="Registro no válido! Calve es nulo" client="1"/>
+		<phrase id="invalidparameter" value="Parametro no válido"/>
+		<phrase id="invalidpassword" value="Contraseña no válida"/>
+		<phrase id="invaliduidpwd" value="ID de usuario o contraseña incorrecta"/>
+		<phrase id="keep" value="Mantener"/>
+		<phrase id="language" value="Idioma"/>
+		<phrase id="loading" value="Cargando..."/>
+		<phrase id="login" value="Ingresar"/>
+		<phrase id="logincancelled" value="Inicio de sesión canelado"/>
+		<phrase id="loginpage" value="Inicio de Sesión"/>
+		<phrase id="logout" value="Cerrar sesión"/>
+		<phrase id="masterrecord" value="Registro Maestro: "/>
+		<phrase id="maxfilesize" value="El tamaño máximo del archivo (%s bytes) se excede."/>
+		<phrase id="mismatchpassword" value="Contraseña diferente" client="1"/>
+		<phrase id="missinglookuptablename" value="No se encontró nombre de tabla para busqueda"/>
+		<phrase id="missingdisplayfieldname" value="No se encontró nombre de campo a mostrar"/>
+		<phrase id="missingdisplayfieldvalue" value="No se encontró valor del campo a mostrar"/>
+		<phrase id="missinguserlevelid" value="No se encontó ID de nivel de usuario"/>
+		<phrase id="missinguserlevelname" value="no se encontró nombre del nivel de usuario"/>
+		<phrase id="new" value="Nuevo"/>
+		<phrase id="newpassword" value="Contraseña nueva"/>
+		<phrase id="newvalue" value="Valor nuevo"/>
+		<phrase id="next" value="Proximo"/>
+		<phrase id="noaddrecord" value="No hay registros para adicionar" client="1"/>
+		<phrase id="nofieldselected" value="no hay campos seleccionado para actualziar" client="1"/>
+		<phrase id="nopermission" value="No tiene permisos para ver esta página"/>
+		<phrase id="norecord" value="No se encontraron registros"/>
+		<phrase id="norecordforkey" value="No se encontraron registros para la clave = "/>
+		<phrase id="norecordselected" value="No hay registros seleccionados" client="1"/>
+		<phrase id="notablegenerated" value="No se generó la tabla"/>
+		<phrase id="of" value="de"/>
+		<phrase id="old" value="viejo"/>
+		<phrase id="oldpassword" value="Contraseña vieja"/>
+		<phrase id="optionalreadyexist" value="La opcón ya existe"/>
+		<phrase id="page" value="Página"/>
+		<phrase id="pagerfirst" value="Primero"/>
+		<phrase id="pagerlast" value="Ultimo"/>
+		<phrase id="pagernext" value="Siguiente"/>
+		<phrase id="pagerprevious" value="Anterior"/>
+		<phrase id="password" value="Contraseña"/>
+		<phrase id="passwordrequest" value="Contraseña recibida"/>
+		<phrase id="passwordchanged" value="Contraseña cambiada"/>
+		<phrase id="passwordexpired" value="Contraseña expiro. Por favor cambiela."/>
+		<phrase id="permission" value="Permisos"/>
+		<phrase id="permissionaddcopy" value="Adicionar/Copiar"/>
+		<phrase id="permissiondelete" value="Borrar"/>
+		<phrase id="permissionedit" value="Editar"/>
+		<phrase id="permissionlistsearchview" value="Listar/Buscar/Ver"/>
+		<phrase id="permissionlist" value="Listar"/>
+		<phrase id="permissionsearch" value="Buscar"/>
+		<phrase id="permissionview" value="Ver"/>
+		<phrase id="pickdate" value="Seleccion una fecha"/>
+		<phrase id="pleaseselect" value="Seleccione uno"/>
+		<phrase id="primarykeyunspecified" value="Clave primaria no especificada"/>
+		<phrase id="printerfriendly" value="Imprimir"/>
+		<phrase id="prev" value="Ant"/>
+		<phrase id="pwdemailsent" value="La contraseña se envió a su correo"/>
+		<phrase id="quicksearch" value="Busqueda rapida"/>
+		<phrase id="quicksearchbtn" value="Busqueda (*)"/>
+		<phrase id="record" value="Registros"/>
+		<phrase id="recordchangedbyotheruser" value="Los datos fueron cambiados por otro usuario. Click [Recargar] para ver los cambios (los datos de la forma seran sobreescritos) o click [Sobreescribir] para sobreescribir los datos."/>
+		<phrase id="recorddeleted" value="registro(s) borrados"/>
+		<phrase id="recordinserted" value="registro(s) insertados"/>
+		<phrase id="recordupdated" value="registros(s) actualizados"/>
+		<phrase id="recordsperpage" value="Tamaño de página"/>
+		<phrase id="register" value="Registrar"/>
+		<phrase id="registerbtn" value="Registrar"/>
+		<phrase id="registersuccess" value="Registro terminado"/>
+		<phrase id="registersuccessactivate" value="Registro terminado. Un correo fué enviado a su correo, por favor haga click en el enlace para activar su usuario."/>
+		<phrase id="registerpage" value="Registro"/>
+		<phrase id="reloadbtn" value="Recargar"/>
+		<phrase id="reloadlink" value="Recargar"/>
+		<phrase id="rememberme" value="Recordarme"/>
+		<phrase id="remove" value="Remover"/>
+		<phrase id="replace" value="Reemplazar"/>
+		<phrase id="report" value="Reporte"/>
+		<phrase id="requestpwdpage" value="Petición de Contraseña"/>
+		<phrase id="reset" value="Restaurar"/>
+		<phrase id="resetsearch" value="Restaurar creterios de busqueda"/>
+		<phrase id="rptavg" value="Promedio"/>
+		<phrase id="rptdtlrec" value="Registro de Detalle"/>
+		<phrase id="rptgrandtotal" value="Gran Total"/>
+		<phrase id="rptmax" value="Máximo"/>
+		<phrase id="rptmin" value="Mínimo"/>
+		<phrase id="rptsum" value="Suma"/>
+		<phrase id="rptsumhead" value="Sumar por"/>
+		<phrase id="saveusername" value="Guardar mi nombre se usuario"/>
+		<phrase id="search" value="Buscar"/>
+		<phrase id="sendemailbtn" value="Enviar"/>
+		<phrase id="sendemailsuccess" value="Correo enviado" client="1"/>
+		<phrase id="sendpwd" value="Enviar contraseña"/>
+		<phrase id="showall" value="Mostrar todos"/>
+		<phrase id="showhighlight" value="Mostrar los resaltados" client="1"/>
+		<phrase id="srchlegend" value="&amp;nbsp;(*)"/>
+		<phrase id="table" value="TABLA"/>
+		<phrase id="tbltypetable" value="Tabla: "/>
+		<phrase id="tbltypeview" value="Vista: "/>
+		<phrase id="tbltypecustomview" value="Vista: "/>
+		<phrase id="tbltypereport" value="Reporte: "/>
+		<phrase id="to" value="para"/>
+		<phrase id="total" value="Total"/>
+		<phrase id="unauthorizeduserid" value="El usuario (%c) no esta autorizado para asiganar ID de usuario (%u)."/>
+		<phrase id="unauthorizedparentuserid" value="The current user (%c) is not authorized to assign the parent user ID (%p)."/>
+		<phrase id="unauthorizedmasteruserid" value="The current user (%c) is not authorized to insert the record. Master filter: %f"/>
+		<phrase id="unmatchedvalue" value="&lt;img src=&quot;images/alert-small.gif&quot; alt=&quot;Value does not exist&quot; width=&quot;16&quot; height=&quot;16&quot; border=&quot;0&quot;&gt;"/>
+		<phrase id="update" value="Actualizar"/>
+		<phrase id="updatebtn" value="Actualizar"/>
+		<phrase id="updatecancelled" value="Actualizar cancelado"/>
+		<phrase id="updatefailed" value="Actualizar fallido"/>
+		<phrase id="updatelink" value="Actualizar"/>
+		<phrase id="updateselectedlink" value="Actualizar registros seleccionados"/>
+		<phrase id="updatesuccess" value="Actualizar terminado"/>
+		<phrase id="updatevalue" value="Actualizar"/>
+		<phrase id="useremail" value="Correo usuario"/>
+		<phrase id="userexists" value="Usuario ya existe"/>
+		<phrase id="userlevel" value="Nivel usuario"/>
+		<phrase id="userleveladministratorname" value="El nombre del nivel de usuario para el nivel -1 debe ser 'Administrator'" client="1"/>
+		<phrase id="userlevelpermission" value="Permisos nivel de usuario"/>
+		<phrase id="userlevelidinteger" value="El ID del nivel de usuario debe ser un entero" client="1"/>
+		<phrase id="userleveldefaultname" value="El Nombre del nivel de usuario para el nivel 0 debe ser 'Default'" client="1"/>
+		<phrase id="userlevelidincorrect" value="Los niveles definidos por el usuario deben ser mayores a 0" client="1"/>
+		<phrase id="userlevelnameincorrect" value="El nivel definido por el usuario no puede llamarse 'Administrator' o 'Default'" client="1"/>
+		<phrase id="userloggedin" value="El usuario '%u' ya tiene una sesión iniciada!"/>
+		<phrase id="username" value="Nombre usuario"/>
+		<phrase id="userprofilecorrupted" value="El perfil del usuario esta corrupto. Por favor cierre sesión e ingrese de nuevo"/>
+		<phrase id="view" value="Ver"/>
+		<phrase id="viewlink" value="Ver"/>
+		<phrase id="viewpageaddlink" value="Adicionar"/>
+		<phrase id="viewpagecopylink" value="Copiar"/>
+		<phrase id="viewpagedeletelink" value="Borrar"/>
+		<phrase id="viewpagedetaillink" value=""/>
+		<phrase id="viewpageeditlink" value="Editar"/>
+		<phrase id="wrongfiletype" value="El tipo de archivo no esta permitido." client="1"/>
+		<phrase id="tableorview" value="Tablas/Vistas"/>
+		<phrase id="=" value="="/>
+		<phrase id="&lt;&gt;" value="&lt;&gt;"/>
+		<phrase id="&lt;" value="&lt;"/>
+		<phrase id="&lt;=" value="&lt;="/>
+		<phrase id="&gt;" value="&gt;"/>
+		<phrase id="&gt;=" value="&gt;="/>
+		<phrase id="like" value="contiene"/>
+		<phrase id="not like" value="no contiene"/>
+		<phrase id="starts with" value="comiensa con"/>
+		<phrase id="between" value="entre"/>
+		<phrase id="and" value="y"/>
+		<phrase id="or" value="o"/>
+	</global>
+	<project><phrase id="bodytitle" value="CIPYV"/>
+<phrase id="footertext" value="Desarrollado por SxSistemaX"/>
+<menu id="19"><phrase id="menutext" value="Vehículos"/>
+</menu>
+<menu id="20"><phrase id="menutext" value="Peatones"/>
+</menu>
+<menu id="16"><phrase id="menutext" value="sysdiagrams"/>
+</menu>
+<menu id="15"><phrase id="menutext" value="Registros"/>
+</menu>
+<menu id="12"><phrase id="menutext" value="Registro Vehículos"/>
+</menu>
+<menu id="11"><phrase id="menutext" value="Registro Peatones"/>
+</menu>
+<menu id="17"><phrase id="menutext" value="Histórico Vehículos"/>
+</menu>
+<menu id="18"><phrase id="menutext" value="Histórico Peatones"/>
+</menu>
+<menu id="14"><phrase id="menutext" value="Configuración"/>
+</menu>
+<menu id="1"><phrase id="menutext" value="Areas"/>
+</menu>
+<menu id="21"><phrase id="menutext" value="Cargos"/>
+</menu>
+<menu id="3"><phrase id="menutext" value="Personas"/>
+</menu>
+<menu id="5"><phrase id="menutext" value="Vehiculos Autorizados"/>
+</menu>
+<menu id="7"><phrase id="menutext" value="Horas Pico Y Placa"/>
+</menu>
+<menu id="2"><phrase id="menutext" value="Tipos Vehículos"/>
+</menu>
+<menu id="10"><phrase id="menutext" value="Tipos Documentos"/>
+</menu>
+<menu id="9"><phrase id="menutext" value="Niveles Seguridad"/>
+</menu>
+<menu id="4"><phrase id="menutext" value="Usuarios"/>
+</menu>
+<menu id="8"><phrase id="menutext" value="User Level Permissions"/>
+</menu>
+<table id="areas"><phrase id="tblcaption" value="Areas"/>
+<field id="idarea"><phrase id="fldcaption" value="Id Area"/>
+</field>
+<field id="area"><phrase id="fldcaption" value="Area"/>
+</field>
+<field id="codigo"><phrase id="fldcaption" value="Codigo"/>
+</field>
+</table>
+<table id="personas"><phrase id="tblcaption" value="Personas"/>
+<field id="idpersona"><phrase id="fldcaption" value="Id Persona"/>
+</field>
+<field id="idarea"><phrase id="fldcaption" value="Area"/>
+</field>
+<field id="idcargo"><phrase id="fldcaption" value="Cargo"/>
+</field>
+<field id="documento"><phrase id="fldcaption" value="Documento"/>
+</field>
+<field id="persona"><phrase id="fldcaption" value="Persona"/>
+</field>
+<field id="activa"><phrase id="fldcaption" value="Activa"/>
+<phrase id="fldtagcaption1" value="Si"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+</table>
+<table id="sysdiagrams"><phrase id="tblcaption" value="sysdiagrams"/>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+<field id="principal_id"><phrase id="fldcaption" value="principal id"/>
+</field>
+<field id="diagram_id"><phrase id="fldcaption" value="diagram id"/>
+</field>
+<field id="version"><phrase id="fldcaption" value="version"/>
+</field>
+<field id="definition"><phrase id="fldcaption" value="definition"/>
+</field>
+</table>
+<table id="tiposvehiculos"><phrase id="tblcaption" value="Tipos Vehículos"/>
+<field id="idtipovehiculo"><phrase id="fldcaption" value="Id Tipo Vehiculo"/>
+</field>
+<field id="tipovehiculo"><phrase id="fldcaption" value="Tipo Vehiculo"/>
+</field>
+</table>
+<table id="userlevelpermissions"><phrase id="tblcaption" value="User Level Permissions"/>
+<field id="userlevelid"><phrase id="fldcaption" value="User Level ID"/>
+</field>
+<field id="userleveltablename"><phrase id="fldcaption" value="User Level Table Name"/>
+</field>
+<field id="userlevelpermission"><phrase id="fldcaption" value="User Level Permission"/>
+</field>
+<field id="idaplicacion"><phrase id="fldcaption" value="Id Aplicacion"/>
+</field>
+</table>
+<table id="userlevels"><phrase id="tblcaption" value="Niveles Seguridad"/>
+<field id="userlevelid"><phrase id="fldcaption" value="User Level ID"/>
+</field>
+<field id="userlevelname"><phrase id="fldcaption" value="User Level Name"/>
+</field>
+</table>
+<table id="usuarios"><phrase id="tblcaption" value="Usuarios"/>
+<field id="idusuario"><phrase id="fldcaption" value="Id Usuario"/>
+</field>
+<field id="usuario"><phrase id="fldcaption" value="Usuario"/>
+</field>
+<field id="nombreusuario"><phrase id="fldcaption" value="Nombre Usuario"/>
+</field>
+<field id="password"><phrase id="fldcaption" value="Password"/>
+</field>
+<field id="correo"><phrase id="fldcaption" value="Correo"/>
+</field>
+<field id="idusuarionivel"><phrase id="fldcaption" value="Nivel"/>
+</field>
+<field id="activo"><phrase id="fldcaption" value="Activo"/>
+<phrase id="fldtagcaption1" value="Si"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+</table>
+<table id="vehiculosautorizados"><phrase id="tblcaption" value="Vehículos Autorizados"/>
+<field id="idvehiculoautorizado"><phrase id="fldcaption" value="Id Vehiculo Autorizado"/>
+</field>
+<field id="idtipovehiculo"><phrase id="fldcaption" value="Tipo Vehiculo"/>
+</field>
+<field id="placa"><phrase id="fldcaption" value="Placa"/>
+</field>
+<field id="autorizado"><phrase id="fldcaption" value="Activo"/>
+<phrase id="fldtagcaption1" value="Si"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="idpersona"><phrase id="fldcaption" value="Persona"/>
+</field>
+<field id="picoyplaca"><phrase id="fldcaption" value="Pico y Placa"/>
+<phrase id="fldtagcaption1" value="Si"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="lunes"><phrase id="fldcaption" value="Lunes"/>
+<phrase id="fldtagcaption1" value="Si"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="martes"><phrase id="fldcaption" value="Martes"/>
+<phrase id="fldtagcaption1" value="Si"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="miercoles"><phrase id="fldcaption" value="Miercoles"/>
+<phrase id="fldtagcaption1" value="Si"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="jueves"><phrase id="fldcaption" value="Jueves"/>
+<phrase id="fldtagcaption1" value="Si"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="viernes"><phrase id="fldcaption" value="Viernes"/>
+<phrase id="fldtagcaption1" value="Si"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="sabado"><phrase id="fldcaption" value="Sabado"/>
+<phrase id="fldtagcaption1" value="Si"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="domingo"><phrase id="fldcaption" value="Domingo"/>
+<phrase id="fldtagcaption1" value="Si"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="marca"><phrase id="fldcaption" value="Marca"/>
+</field>
+</table>
+<table id="vehiculospicoyplacahoras"><phrase id="tblcaption" value="Horas Pico y Placa"/>
+<field id="idvehiculoautorizado"><phrase id="fldcaption" value="Id Vehiculo Autorizado"/>
+</field>
+<field id="horainicial"><phrase id="fldcaption" value="Hora Inicial"/>
+</field>
+<field id="horafinal"><phrase id="fldcaption" value="Hora Final"/>
+</field>
+</table>
+<table id="tiposdocumentos"><phrase id="tblcaption" value="Tipos Documentos"/>
+<field id="idtipodocumento"><phrase id="fldcaption" value="Id Tipo Documento"/>
+</field>
+<field id="tipodocumento"><phrase id="fldcaption" value="Tipo Documento"/>
+</field>
+</table>
+<table id="registrospeatones"><phrase id="tblcaption" value="Registros Peatones"/>
+<field id="idregistropeaton"><phrase id="fldcaption" value="Id Registro Peaton"/>
+</field>
+<field id="idtipodocumento"><phrase id="fldcaption" value="Tipo Documento"/>
+</field>
+<field id="documento"><phrase id="fldcaption" value="Documento"/>
+</field>
+<field id="nombre"><phrase id="fldcaption" value="Nombre"/>
+</field>
+<field id="apellidos"><phrase id="fldcaption" value="Apellidos"/>
+</field>
+<field id="idarea"><phrase id="fldcaption" value="Area"/>
+</field>
+<field id="idpersona"><phrase id="fldcaption" value="Persona"/>
+</field>
+<field id="fechaingreso"><phrase id="fldcaption" value="Fecha Ingreso"/>
+</field>
+<field id="fechasalida"><phrase id="fldcaption" value="Fecha Salida"/>
+</field>
+<field id="observacion"><phrase id="fldcaption" value="Observacion"/>
+</field>
+</table>
+<table id="registrosvehiculos"><phrase id="tblcaption" value="Registros Vehículos"/>
+<field id="idregistrovehiculo"><phrase id="fldcaption" value="Id Registro Vehiculo"/>
+</field>
+<field id="idtipovehiculo"><phrase id="fldcaption" value="Tipo Vehiculo"/>
+</field>
+<field id="placa"><phrase id="fldcaption" value="Placa"/>
+</field>
+<field id="fechaingreso"><phrase id="fldcaption" value="Fecha Ingreso"/>
+</field>
+<field id="fechasalida"><phrase id="fldcaption" value="Fecha Salida"/>
+</field>
+<field id="observaciones"><phrase id="fldcaption" value="Observaciones"/>
+</field>
+</table>
+<table id="historicovehiculos"><phrase id="tblcaption" value="Histórico Vehículos"/>
+<field id="tipovehiculo"><phrase id="fldcaption" value="Tipo Vehiculo"/>
+</field>
+<field id="placa"><phrase id="fldcaption" value="Placa"/>
+</field>
+<field id="fechaingreso"><phrase id="fldcaption" value="Fecha Ingreso"/>
+</field>
+<field id="fechasalida"><phrase id="fldcaption" value="Fecha Salida"/>
+</field>
+<field id="observaciones"><phrase id="fldcaption" value="Observaciones"/>
+</field>
+<field id="horaingreso"><phrase id="fldcaption" value="Hora Ingreso"/>
+</field>
+<field id="horasalida"><phrase id="fldcaption" value="Hora Salida"/>
+</field>
+</table>
+<table id="historicopeatones"><phrase id="tblcaption" value="Histórico Peatones"/>
+<field id="tipodocumento"><phrase id="fldcaption" value="Tipo Documento"/>
+</field>
+<field id="documento"><phrase id="fldcaption" value="Documento"/>
+</field>
+<field id="nombre"><phrase id="fldcaption" value="Nombre"/>
+</field>
+<field id="apellidos"><phrase id="fldcaption" value="Apellidos"/>
+</field>
+<field id="area"><phrase id="fldcaption" value="Area"/>
+</field>
+<field id="persona"><phrase id="fldcaption" value="Persona"/>
+</field>
+<field id="fechaingreso"><phrase id="fldcaption" value="Fecha Ingreso"/>
+</field>
+<field id="fechasalida"><phrase id="fldcaption" value="Fecha Salida"/>
+</field>
+<field id="observacion"><phrase id="fldcaption" value="Observacion"/>
+</field>
+</table>
+<table id="z_registrovehiculo"><phrase id="tblcaption" value="Registro Vehículos"/>
+<field id="placa"><phrase id="fldcaption" value="Placa"/>
+</field>
+<field id="fechaingreso"><phrase id="fldcaption" value="Fecha Ingreso"/>
+</field>
+</table>
+<table id="z_registropeatones"><phrase id="tblcaption" value="Registro Peatones"/>
+<field id="idregistropeaton"><phrase id="fldcaption" value="Id Registro Peaton"/>
+</field>
+</table>
+<table id="cargos"><phrase id="tblcaption" value="Cargos"/>
+<field id="idcargo"><phrase id="fldcaption" value="Id Cargo"/>
+</field>
+<field id="cargo"><phrase id="fldcaption" value="Cargo"/>
+</field>
+</table>
+</project>
+</ew-language>

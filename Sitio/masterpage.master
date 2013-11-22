@@ -1,0 +1,156 @@
+<%@ Master Language="C#" CodeFile="masterpage.master.cs" Inherits="MasterPage" %>
+<%@ Register TagPrefix="ControlVehicular" TagName="Menu" Src="ewmenu.ascx" %>
+<!doctype html>
+<html>
+<head>
+	<title><%= Language.ProjectPhrase("BodyTitle") %></title>
+<% if (NotExport) { %>
+<link rel="stylesheet" type="text/css" href="<%= AspNetMaker9_ControlVehicular.ew_YuiHost() %>build/menu/assets/skins/sam/menu.css">
+<link rel="stylesheet" type="text/css" href="aspxcss/ewmenu.css">
+<link rel="stylesheet" type="text/css" href="<%= AspNetMaker9_ControlVehicular.ew_YuiHost() %>build/container/assets/skins/sam/container.css" />
+<link rel="stylesheet" type="text/css" href="<%= AspNetMaker9_ControlVehicular.ew_YuiHost() %>build/resize/assets/skins/sam/resize.css">
+<% } %>
+<% if (PrintOrNotExport) { %>
+<link rel="stylesheet" type="text/css" href="<%= AspNetMaker9_ControlVehicular.EW_PROJECT_STYLESHEET_FILENAME %>" />
+<% } %>
+<meta charset="utf-8">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="<%= AspNetMaker9_ControlVehicular.ew_ConvertFullUrl("parking.ico") %>" /><link rel="icon" type="image/vnd.microsoft.icon" href="<%= AspNetMaker9_ControlVehicular.ew_ConvertFullUrl("parking.ico") %>" />
+<meta name="generator" content="ASP.NET Maker v9.0.0" />
+</head>
+<body class="yui-skin-sam">
+<% if (PrintOrNotExport) { %>
+<script type="text/javascript" src="<%= AspNetMaker9_ControlVehicular.ew_YuiHost() %>build/utilities/utilities.js"></script>
+<script type="text/javascript" src="<%= AspNetMaker9_ControlVehicular.ew_YuiHost() %>build/container/container-min.js"></script>
+<script type="text/javascript" src="<%= AspNetMaker9_ControlVehicular.ew_YuiHost() %>build/resize/resize-min.js"></script>
+<script type="text/javascript" src="<%= AspNetMaker9_ControlVehicular.ew_YuiHost() %>build/menu/menu.js"></script>
+<script type="text/javascript">
+<!--
+var EW_LANGUAGE_ID = "<%= AspNetMaker9_ControlVehicular.gsLanguage %>"; 
+var EW_DATE_SEPARATOR = "/"; 
+if (EW_DATE_SEPARATOR == "") EW_DATE_SEPARATOR = "/"; // Default date separator
+var EW_UPLOAD_ALLOWED_FILE_EXT = "gif,jpg,jpeg,bmp,png,doc,xls,pdf,zip,docx,xlsx"; // Allowed upload file extension
+var EW_FIELD_SEP = ", "; // Default field separator
+
+// Ajax settings
+var EW_RECORD_DELIMITER = "\r";
+var EW_FIELD_DELIMITER = "|";
+var EW_LOOKUP_FILE_NAME = "ewlookup9.aspx"; // lookup file name
+var EW_AUTO_SUGGEST_MAX_ENTRIES = <%= AspNetMaker9_ControlVehicular.EW_AUTO_SUGGEST_MAX_ENTRIES %>; // Auto-Suggest max entries
+
+// Common JavaScript messages
+var EW_ADDOPT_BUTTON_SUBMIT_TEXT = "<%= AspNetMaker9_ControlVehicular.ew_JsEncode2(AspNetMaker9_ControlVehicular.ew_BtnCaption(Language.Phrase("AddBtn"))) %>";
+var EW_EMAIL_EXPORT_BUTTON_SUBMIT_TEXT = "<%= AspNetMaker9_ControlVehicular.ew_JsEncode2(AspNetMaker9_ControlVehicular.ew_BtnCaption(Language.Phrase("SendEmailBtn"))) %>";
+var EW_BUTTON_CANCEL_TEXT = "<%= AspNetMaker9_ControlVehicular.ew_JsEncode2(AspNetMaker9_ControlVehicular.ew_BtnCaption(Language.Phrase("CancelBtn"))) %>";
+var ewTooltipDiv;
+var ew_TooltipTimer = null;
+
+//-->
+</script>
+<script type="text/javascript" src="aspxjs/ewx9.js"></script>
+<script type="text/javascript" src="aspxjs/userfnx9.js"></script>
+<script type="text/javascript">
+<!--
+<%= Language.ToJSON() %>
+
+//-->
+</script>
+<script language="JavaScript" type="text/javascript">
+<!--
+
+// Write your client script here, no need to add script tags.
+</script>
+<link rel="stylesheet" type="text/css" href="EstilosADA.css">
+<link rel="stylesheet" type="text/css" href="aspxjs/jquery-ui-1.8.21.custom.css">
+<link rel="stylesheet" type="text/css" href="aspxjs/ui.selectmenu.css">
+<script type="text/javascript" src="aspxjs/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="aspxjs/jquery-ui-1.8.18.custom.min.js"></script>
+<script type="text/javascript" src="aspxjs/ui.selectmenu.js"></script>
+<script language="JavaScript" type="text/javascript">  
+
+//-->
+
+</script>
+<% } %>
+<% if (NotExport) { %>
+<div class="ewLayout">
+	<!-- header (begin) --><!-- *** Note: Only licensed users are allowed to change the logo *** -->
+  <div class="ewHeaderRow"><img src="aspximages/Titulo.png" alt="" border="0" /></div>
+	<!-- header (end) -->
+	<!-- content (begin) -->
+			<!-- left column (begin) -->
+<% } %>
+<% if (NotExport) { %>
+<div class="ewMenuRow">
+<% } %>
+<ControlVehicular:Menu id="Menu" runat="server" />
+<% if (NotExport) { %>
+</div>
+	<!-- content (begin) -->
+  <table cellspacing="0" class="ewContentTable">
+		<tr>
+<% } %>
+<% if (NotExport) { %>
+			<!-- left column (end) -->
+	    <td class="ewContentColumn">
+			<!-- right column (begin) -->
+				<p class="aspnetmaker ewTitle"><b><%= Language.ProjectPhrase("BodyTitle") %></b></p>
+<% } %>
+<asp:contentplaceholder id="Content" runat="server" />
+<% if (NotExport) { %>
+<%
+
+// Display debug message and elapsed time
+if (AspNetMaker9_ControlVehicular.EW_DEBUG_ENABLED) {
+	AspNetMaker9_ControlVehicular.ew_Write(AspNetMaker9_ControlVehicular.ew_DebugMsg());
+	AspNetMaker9_ControlVehicular.ew_Write(AspNetMaker9_ControlVehicular.ew_CalcElapsedTime(ParentPage.StartTimer));
+}
+%>
+				<p>&nbsp;</p>			
+			<!-- right column (end) -->
+	    </td>	
+		</tr>
+	</table>
+	<!-- content (end) -->
+	<!-- footer (begin) --><!-- *** Note: Only licensed users are allowed to remove or change the following copyright statement. *** -->
+	<div class="ewFooterRow">	
+		<div class="ewFooterText">&nbsp;<%= Language.ProjectPhrase("FooterText") %></div>
+		<!-- Place other links, for example, disclaimer, here -->		
+	</div>
+	<!-- footer (end) -->	
+</div>
+<div class="yui-tt" id="ewTooltipDiv" style="visibility: hidden; border: 0px;"></div>
+<% } %>
+<% if (PrintOrNotExport) { %>
+<script type="text/javascript">
+<!--
+ewDom.getElementsByClassName(EW_TABLE_CLASS, "TABLE", null, ew_SetupTable); // init the table
+ewDom.getElementsByClassName(EW_GRID_CLASS, "TABLE", null, ew_SetupGrid); // init grids
+ew_InitTooltipDiv(); // init tooltip div
+
+//-->
+</script>
+<script language="JavaScript" type="text/javascript">
+<!--
+
+// Write your global startup script here
+// document.write("page loaded");   
+</script>
+<script language="JavaScript" type="text/javascript">
+	$(function(){
+		$('input[type=button]').button();
+		$('input[type=submit]').button();
+		$('input[type=reset]').button();    
+		$('.ewGridLink').button();
+		$('.ewPager a').button();
+		$('.ewCssTableRow a').button();   
+		//$('.ewTableAltRow a').button();
+	});                                   
+
+		 
+
+//-->
+
+</script>
+<% } %>
+</body>
+</html>

@@ -1,0 +1,306 @@
+﻿body, html
+{
+    background-color: #E9EEF1;
+    font-family: helvetica,arial,sans-serif !important;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+input[type=text], input[type=password]
+{
+    border: 1px solid #AAAAAA;
+    border-radius: 8px 8px 8px 8px;
+    padding: 5px;
+    margin-bottom: 10px;
+    /*width: 220px;*/
+    }
+
+textarea
+{
+    border: 1px solid #AAAAAA;
+    border-radius: 8px 8px 8px 8px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+Select
+{
+    border: 1px solid #AAAAAA;
+    border-radius: 8px 8px 8px 8px;
+    padding: 5px;
+    margin-bottom: 10px;
+    /*width: 220px;*/
+}
+
+/*
+input[type=submit], input[type=button]
+{
+	font-size:11px;
+	font-family:Verdana,sans-serif;
+	font-weight:bold;
+	border-style:solid;
+	padding: 6px;
+	border-width:1px;
+	color:#CFDBEC;
+	background-color:#495D7F;
+	border-color:#BBBBBB;
+    border-radius: 4px 4px 4px 4px;
+}
+  */
+
+.ewTitle {
+    text-align:center;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+
+
+h1
+{
+    padding: 10px;
+    background-color: #31405a;
+    color: #495D7F;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+h2
+{
+    padding: 8px;
+    background-color: #495D7F;
+    color: #495D7F;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+h3
+{
+    border-radius: 0.5em;
+    background-color: #5070a7;
+    color: #495D7F;
+    font-size: 12px;
+    padding: 4px;
+    text-align:center;
+}
+
+.ewGridLink {
+	font-size:11px;
+	font-family:Verdana,sans-serif;
+	font-weight:bold;
+	border-style:solid;
+	padding: 6px;
+	border-width:1px;
+	color:#CFDBEC;
+	background-color:#495D7F;
+	border-color:#BBBBBB;
+    border-radius: 4px 4px 4px 4px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ewGridMiddlePanel {
+    background-color: #EBEBEB;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    box-shadow: 1px 1px 1px 1px #999999;
+    margin: 5px;
+    padding: 5px;
+    border: 0 none;
+    overflow-x: scroll;
+    width: 1190px;
+}
+
+.ewGridUpperPanel, .ewGridLowerPanel {
+    background-color: #EBEBEB;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    box-shadow: 1px 1px 1px 1px #999999;
+    margin: 5px;
+    padding: 5px;
+}
+
+.ewGrid .ewGridContent {
+    background-color: #EBEBEB;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    box-shadow: 1px 1px 1px 1px #999999;
+    width:1200px;
+    margin: 0 auto;
+    padding: 5px;
+	
+}
+
+.ewBasicSearch {
+    background-color: #EBEBEB;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    box-shadow: 1px 1px 1px 1px #999999;
+    margin: 5px;
+    padding: 5px;
+    width: 1200px;	
+}
+
+.ewPager {
+    padding: 10px;
+}
+
+.ewTitle {
+    padding: 8px;
+    background-color: #CFDBEC;
+    color: #495D7F;
+    font-size: 14px;
+    margin-bottom: 10px;
+}         
+
+.ewLayout {
+    margin: auto;
+    width: 1200px !important;
+}
+
+.ewHeaderRow {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    box-shadow: 0px 2px 1px 1px #999999;
+    margin-top : 5px;
+    margin-bottom : 5px;
+}
+
+.ewFooterRow {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    box-shadow: 0px 2px 1px 1px #999999;
+    margin: 0;
+    margin-top : 5px;
+    margin-bottom : 5px;
+}
+.ewContentColumn {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    box-shadow: 0px 2px 1px 1px #999999;
+}
+
+#RootMenu {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    box-shadow: 0px 2px 1px 1px #999999;
+    border: 0px !important;
+
+}
+
+.bd {
+    width: 600px;
+    margin:auto;
+    background-color:#FFFFFF !important;
+
+}
+
+
+/* Maquetacion Login */
+#ContenedorAcceso
+{
+    position: relative;
+}
+
+#FondoLogin
+{
+    height: 500px;
+}
+
+#Login
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0 6px 6px #999999;
+    margin: 0 auto 34px;
+    padding: 10px 39px 19px;
+    position: relative;
+    top: 170px;
+    width: 280px;
+    z-index: 1;
+}
+
+#Login h1
+{
+    color: Gray;
+    font-size: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+    width: 216px;
+    background-color: White;
+}
+
+#DatosAcceso
+{
+    width: 270px;
+}
+
+#BotonAcceder
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 8px 8px 8px 8px;
+    margin: 0 auto;
+    padding: 5px;
+    display: block;
+    width: 500px;
+    position: relative;
+    background-color: #40B5CB;
+    color: White;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+}
+
+#PieLogin
+{
+    background-color: white;
+    bottom: 0;
+    height: 60%;
+    position: fixed;
+    width: 100%;
+}
+
+#PieLogin p
+{
+    color: White;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+}
+
+#LogoSofia
+{
+    left: -64px;
+    position: absolute;
+    top: -63px;
+    width: 150px;
+}
+
+.ErrorValidacion
+{
+    background-color: #FFAAAA !important;
+}
+
+/* Fin maquetacion Login*/
+
+ .Etiqueta
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Campo{
+    font-size: 30px;
+}
+
+.CampoObservacion
+{
+    font-size: 20px;
+    height: 60px;
+    width: 600px;
+}
+
+#IdTipoVehiculo
+{
+    font-size: 30px;
+}
+
+#Placa
+{
+    width: 200px;
+}
